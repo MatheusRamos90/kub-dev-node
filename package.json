@@ -1,0 +1,23 @@
+{
+  "name": "kub-dev-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatheusRamos90/kub-dev-node.git"
+  },
+  "author": "MatheusRamos90",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatheusRamos90/kub-dev-node/issues"
+  },
+  "homepage": "https://github.com/MatheusRamos90/kub-dev-node#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node": "^20.5.0"
+  }
+}

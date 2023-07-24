@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kub-dev-node
+spec:
+  replicas: 10
+  selector:
+    matchLabels:
+      app: kub-dev-node
+  template:
+    metadata:
+      labels:
+        app: kub-dev-node
+    spec:
+      containers:
+        - name: kub-dev-node
+          image: mhramos/kub-dev-node
+          ports:
+            - containerPort: 3000
